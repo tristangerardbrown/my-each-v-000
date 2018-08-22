@@ -4,7 +4,7 @@ def my_each (collection) # put argument(s) here
     i+=1
     do |i|
   puts i
-end
   end
   collection
 end
+end 
