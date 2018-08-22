@@ -1,10 +1,8 @@
-def my_each (collection) # put argument(s) here
-  while i < collection.length
-    yield (array[1])
-    i+=1
-    collection.each do |i|
-      puts i
+def my_each (array) # put argument(s) here
+  i=0
+  while i < array.length
+    yield(array[i])
+    i += 1
   end
-end
-  collection
+  array
 end
